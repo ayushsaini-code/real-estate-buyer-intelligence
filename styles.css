@@ -1,0 +1,44 @@
+/* EMERALD LUXURY — Real Estate Buyer Intelligence */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
+:root{--bg:#071F19;--bg2:#103D30;--deep:#0B2B22;--em:#10B981;--em2:#34D399;--gold:#D6B36A;--gold2:#E8D3A0;--text:#F5F7F5;--muted:#A7B8AE;--border:rgba(255,255,255,.13);--shadow:0 12px 40px rgba(0,0,0,.28)}
+html,body,[data-testid="stAppViewContainer"],.stApp{background:#071F19!important;color:var(--text)!important;font-family:Inter,"Segoe UI",sans-serif!important}
+.stApp{background:radial-gradient(ellipse at 15% 10%,rgba(16,185,129,.18),transparent 38%),radial-gradient(ellipse at 85% 80%,rgba(214,179,106,.10),transparent 35%),linear-gradient(145deg,#061b15,#0b2b22 55%,#071f19)!important;background-attachment:fixed!important}
+[data-testid="stAppViewContainer"],[data-testid="stMain"],[data-testid="stMain"]>div{background:transparent!important}
+[data-testid="stHeader"]{background:rgba(7,31,25,.65)!important}
+.block-container{max-width:1500px;padding-top:2rem;padding-bottom:3rem}
+footer{visibility:hidden}
+.stApp p,.stApp label,.stApp h1,.stApp h2,.stApp h3,.stApp h4,.stApp h5,.stApp h6,.stApp button{font-family:Inter,"Segoe UI",sans-serif!important;color:var(--text)}
+h1,h2,h3{color:var(--gold2)!important}h1,h2{font-family:"Playfair Display",Georgia,serif!important}
+[data-testid="stCaptionContainer"],.stCaption{color:var(--muted)!important}
+[data-testid="stSidebar"]{background:linear-gradient(180deg,rgba(11,43,34,.97),rgba(5,24,18,.98))!important;border-right:1px solid var(--border)}
+[data-testid="stSidebar"]>div{background:transparent!important}
+[data-testid="stSidebar"] h1,[data-testid="stSidebar"] h2,[data-testid="stSidebar"] h3{color:var(--gold2)!important}
+[data-testid="stSidebar"] p,[data-testid="stSidebar"] label{color:var(--muted)!important}
+[data-testid="stSidebar"] [data-testid="stWidgetLabel"] p{color:var(--gold)!important;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+[data-testid="stSidebar"] [data-testid="stRadio"] label{padding:7px 10px;border-radius:10px}
+[data-testid="stSidebar"] [data-testid="stRadio"] label:hover{background:rgba(16,185,129,.13)}
+[data-testid="stSidebar"] [data-testid="stRadio"] label:has(input:checked){background:rgba(16,185,129,.18);border-left:3px solid var(--gold)}
+hr{border:0!important;height:1px!important;background:linear-gradient(90deg,transparent,var(--gold),var(--em),transparent)!important}
+div[data-testid="stMetric"]{background:linear-gradient(145deg,rgba(16,61,48,.72),rgba(11,43,34,.58))!important;border:1px solid var(--border)!important;border-radius:18px!important;padding:18px 20px!important;box-shadow:var(--shadow);backdrop-filter:blur(14px);transition:transform .22s,border-color .22s}
+div[data-testid="stMetric"]:hover{transform:translateY(-3px);border-color:rgba(214,179,106,.6)!important}
+[data-testid="stMetricLabel"]{color:var(--gold)!important}[data-testid="stMetricValue"]{color:var(--text)!important}
+div[data-testid="stPlotlyChart"]{background:rgba(11,43,34,.42)!important;border:1px solid var(--border)!important;border-radius:16px!important;padding:10px!important;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+[data-testid="stDataFrame],[data-testid="stTable"]{border:1px solid var(--border)!important;border-radius:14px!important;overflow:hidden}
+[data-testid="stAlert"]{background:rgba(16,61,48,.55)!important;border:1px solid rgba(16,185,129,.35)!important;border-left:3px solid var(--gold)!important;border-radius:13px!important}
+[data-testid="stAlert"] p{color:var(--text)!important}
+[data-baseweb="select"]>div,[data-baseweb="input"]>div,[data-baseweb="textarea"]>div{background:rgba(7,31,25,.72)!important;border:1px solid rgba(214,179,106,.25)!important;border-radius:10px!important}
+[data-baseweb="tag"]{background:rgba(16,185,129,.2)!important;border:1px solid rgba(52,211,153,.35)!important;border-radius:7px!important}
+[data-baseweb="tag"] span{color:#D8F8E9!important}
+[data-baseweb="popover"]>div,[data-baseweb="menu"],ul[role="listbox"]{background:#0B2B22!important;border:1px solid var(--border)!important}
+li[role="option"]:hover,li[role="option"][aria-selected="true"]{background:rgba(16,185,129,.2)!important}
+.stButton>button,.stDownloadButton>button{background:linear-gradient(135deg,rgba(16,185,129,.28),rgba(16,61,48,.85))!important;color:var(--text)!important;border:1px solid rgba(214,179,106,.5)!important;border-radius:11px!important;transition:transform .2s,box-shadow .2s}
+.stButton>button:hover,.stDownloadButton>button:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(16,185,129,.2);border-color:var(--gold)!important}
+a{color:var(--em2)!important}
+.insight-card{padding:20px 24px;margin-bottom:14px;border-radius:18px;border:1px solid var(--border);background:linear-gradient(145deg,rgba(16,61,48,.7),rgba(11,43,34,.55));box-shadow:var(--shadow);backdrop-filter:blur(14px);transition:transform .25s,border-color .25s}
+.insight-card:hover{transform:translateY(-3px);border-color:rgba(214,179,106,.55)}
+.insight-card h4{color:var(--gold2)!important}.insight-card p{color:var(--muted)!important;line-height:1.65}
+.insight-title.gold{color:var(--gold)!important}.insight-title.champagne{color:var(--gold2)!important}.insight-title.mint{color:var(--em2)!important}
+@keyframes emerald-drift{0%{background-position:0% 0%}50%{background-position:100% 50%}100%{background-position:0% 100%}}
+@media(prefers-reduced-motion:no-preference){.stApp{background-size:160% 160%!important;animation:emerald-drift 32s ease-in-out infinite}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+@media(max-width:768px){.block-container{padding:1.2rem 1rem 2rem}div[data-testid="stMetric"]{padding:14px!important}}
