@@ -15,9 +15,7 @@ __pycache__/
 !.env.example
 .streamlit/secrets.toml
 
-# Local data (do not commit client-level records)
-data/*.csv
-data/processed/*.csv
+# Private and raw data
 data/raw/
 data/private/
 
