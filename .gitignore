@@ -1,0 +1,37 @@
+# Python environments
+.venv/
+.venv-test/
+venv/
+env/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local data (do not commit client-level records)
+data/*.csv
+data/processed/*.csv
+data/raw/
+data/private/
+
+# Buyer-level exports and identifier mappings
+reports/buyer_segments.csv
+reports/buyer_label_encoded_reference.csv
+reports/label_encoding_mappings.csv
+
+# Local / editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
