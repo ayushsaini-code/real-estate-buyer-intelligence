@@ -20,7 +20,6 @@ data/raw/
 data/private/
 
 # Buyer-level exports and identifier mappings
-reports/buyer_segments.csv
 reports/buyer_label_encoded_reference.csv
 reports/label_encoding_mappings.csv
 
